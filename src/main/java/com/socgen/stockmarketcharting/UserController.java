@@ -34,7 +34,7 @@ public class UserController {
 	@Autowired 
 	EntityManager em;
 
-	@CrossOrigin(origins ="http://localhost:3000")
+	@CrossOrigin(origins ="https://stock-market-charting-react.herokuapp.com/")
 
 	@RequestMapping(value = "/setuserapi",method=RequestMethod.POST)
 	
