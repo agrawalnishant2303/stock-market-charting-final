@@ -81,7 +81,7 @@ public class UserController {
 			// message.setText("Dear Mail Crawler,"
 			// + "\n\n Please do not spam my email!");
 			((MimeMessage) message).setContent(
-					"<h1><a href =\"http://127.0.0.1:8080/confirmuser/" + userid + "/\"> Click to confirm </a></h1>",
+					"<h1><a href =\"https://stockmarketcharting-react.herokuapp.com/confirmuser/" + userid + "/\"> Click to confirm </a></h1>",
 					"text/html");
 			Transport.send(message);
 
